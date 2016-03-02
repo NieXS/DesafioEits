@@ -3,10 +3,10 @@ package com.stockontrol.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.stockontrol.entity.Category;
+import com.stockontrol.entity.Batch;
 
-@Repository("categoryRepository")
-public interface CategoryRepository extends JpaRepository<Category, Long>
+@Repository("batchRepository")
+public interface BatchRepository extends JpaRepository<Batch, Long>
 {
-	
+
 }
